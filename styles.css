@@ -1,0 +1,48 @@
+body {
+    background: lightgray;
+    margin: 0;
+}
+
+header {
+    background: white;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.feedContainer {
+    width: 700px;
+    margin: auto;
+}
+
+.post {
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.post img {
+    width: 100%;
+}
+
+.post h2, .post p {
+    padding: 10px;
+    margin: 0;
+}
+
+.postHeader {
+    display: flex;
+}
+
+.postHeader div:first-child {
+    flex-grow: 4;
+}
+
+.postHeader div:last-child {
+    flex-grow: 1;
+    text-align: right;
+    color: gray;
+}
